@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    restart: unless-stopped
+    ports:
+      - 80:8080
+    volumes:
+      - jenkinsHome:/var/jenkins_home
+
+volumes:
+  jenkinsHome:
