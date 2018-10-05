@@ -1,7 +1,7 @@
 # Jenkins
 A compose file to easily setup jenkins.
 
-This started out as a docker compose file to make dockerized Jenkins easier to setup. As I tested this out on different environments, I added helper scripts.
+This started out as a docker compose file to make Jenkins easier to setup. As I tested this out on different environments, I added helper scripts.
 
 ## Clone
 
